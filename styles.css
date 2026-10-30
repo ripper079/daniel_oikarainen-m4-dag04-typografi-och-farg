@@ -200,3 +200,37 @@ textarea:focus-visible {
 input {
   border: 2px solid var(--form-border-color);
 }
+/* Styla hero */
+#hero {
+  background-color: var(--hero-background-color);
+  padding: var(--padding-vertical) var(--padding-horizontal);
+
+  font-family: system-ui;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+/* Fälten där användaren get indata */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  font: inherit;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+ 
+/* Ett helt grupp fält - Label + indata fält  */
+.falt {
+  /* border: 2px solid var(--form-border-color); */
+  /* background-color: green; */
+}
+
+/* Etiketterna blir fetstilta */
+.falt label {
+  font-weight: bold;
+  /* background-color: yellow; */
+}
