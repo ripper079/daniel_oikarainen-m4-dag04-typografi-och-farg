@@ -59,8 +59,14 @@
 }
 
 body {
+  /* Tvinga REM till 16px om webb-läsare inte är det */
+  /* font-size: 16px; */
+  /* Varför rem...tillgänglighet. Respekterar webbläsarens önskemål  */
+  /* Responsivitet och skalning fungerar bättre   */
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
   color: #222222;
   background-color: #fffaf3;
 }
