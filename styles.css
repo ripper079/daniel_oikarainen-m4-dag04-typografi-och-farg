@@ -69,6 +69,7 @@ body {
   line-height: 1.6;
   color: #222222;
   background-color: #fffaf3;
+
 }
 
 header {
@@ -101,9 +102,15 @@ nav ul {
   padding: 0;
 }
 
+
 nav a {
-  color: #ffffff;
+  color: var(--link-color);
 }
+
+nav a:hover {
+  color: var(--link-hover-color);
+}
+
 
 main {
   padding: 24px;
@@ -147,9 +154,22 @@ footer {
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--link-color);
+}
+
+footer a:hover {
+  color: var(--link-hover-color);
 }
 
 address {
   font-style: normal;
+}
+
+.pris {
+  color: var(--price-color);
+}
+
+main h2,
+main h3 {
+  color: #8c1010;
 }
