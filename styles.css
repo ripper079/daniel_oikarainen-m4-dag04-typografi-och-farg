@@ -1,4 +1,57 @@
 /* ===== Dag 3: grunder, boxmodell ===== */
+
+/* Variabler */
+:root {
+   /* Color */
+   --body-color : #fffaf3;
+   --header-color: #5b3a29;             /* Sidhuvud */
+   --footer-color: #2b1c14;             /* Sidfot */
+   
+   --price-color: #8c1010;              /* Priser */
+
+   --link-color: #8c1010;              /* Länkar - Default*/
+   --link-hover-color: #5e0a0a;        /* Länkar - Hover */  
+
+   --button-color: #8c1010;            /* Knapp - Normal tillstånd */
+   --button-hover-color: #6f0c0c;      /* Knapp - Hover tillstånd */
+
+   --paragraph-color: #222222;          /* Brödtext */
+   --heading-color: #3b2418;            /* Rubrik h1 till h3 */
+
+   --card-background-color:#ffffff;     /* Kort -   Article */
+   --card-border-color:#e3d5c3;         /* Kort Kantlinje - Article */
+
+   --hero-background-color: #f3e3cf;    /* Hero Sektionen */
+
+   --focus-color: #1a73e8;              /* Fokusmarkering */
+
+   --form-border-color: #8a7a6a;        /* Kantlinje Formulär */
+
+   
+   
+   /* Spacing - 8 Point system - in pixels */
+   --spacing-8:   8px;     /* Small */   
+   --spacing-16:  16px;    /* Medium*/    
+   --spacing-24:  24px;    /* Large */         
+   --spacing-32:  32px;    /* X-Large */    
+   --spacing-48:  48px;    /* XL-Large */
+   
+   /* Padding  */
+   --padding-vertical:     16px;
+   --padding-horizontal:   24px;
+
+   /* Border Radius  */
+   --border-radius-small:  2px;
+   --border-radius-medium: 4px;
+   --border-radius-large:  8px;
+   --border-radius-xlarge: 16px;
+   
+   /* Default text color */
+   --primary-text-light-color:#B8B8B8;
+   --primary-text-dark-color:#333333;
+
+}
+
 *,
 *::before,
 *::after {
