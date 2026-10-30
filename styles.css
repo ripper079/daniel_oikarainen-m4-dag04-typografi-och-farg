@@ -58,6 +58,8 @@
   box-sizing: border-box;
 }
 
+/* WCAG  ouput */
+/* Brödtext mot backgrund - 15.31:1 - WCAG AAA */
 body {
   /* Tvinga REM till 16px om webb-läsare inte är det */
   /* font-size: 16px; */
@@ -67,8 +69,8 @@ body {
   font-family: system-ui, "Segoe UI", Roboto, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  color: #222222;
-  background-color: #fffaf3;
+  color: var(--paragraph-color);
+  background-color: var(--body-color);
 
 }
 
@@ -102,11 +104,14 @@ nav ul {
   padding: 0;
 }
 
-
+/* WCAG  ouput */
+/* Länk mot backgrund - 1.05:1 - WCAG FAIL */
 nav a {
   color: var(--link-color);
 }
 
+/* WCAG  ouput */
+/* Länk mot backgrund - 1.19:1 - WCAG FAIL */
 nav a:hover {
   color: var(--link-hover-color);
 }
@@ -137,6 +142,8 @@ article img,
   border-radius: 4px;
 }
 
+/* WCAG  ouput */
+/* Vit text i knappen - 9.55:1 - WCAG AAA */
 .knapp {
   display: inline-block;
   background-color: #8c1010;
@@ -153,6 +160,8 @@ footer {
   padding: 24px;
 }
 
+/* WCAG  ouput */
+/* Röd länk mot bmörkbrun bakgrund - 1.71:1 - WCAG Fail */
 footer a {
   color: var(--link-color);
 }
